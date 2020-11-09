@@ -1,8 +1,8 @@
 {
   "name": "@rmanium/stackoverflow-question",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "homepage": "https://rmanium.github.io/stackoverflow-question",
-  "description": "Creating dynamic components through sharable libraries",
+  "description": "Dynamic imports from external library sandbox",
   "author": "Arman Khashei",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git@github.com:rmanium/stackoverflow-question.git"
   },
-  "main": "dist/src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js",
     "install-all": "npm install && cd playground-cnp && npm install",
@@ -58,8 +58,5 @@
     "react-is": "^17.0.1",
     "react-scripts": "^4.0.0",
     "webpack-cli": "^4.2.0"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }

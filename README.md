@@ -6,3 +6,9 @@ To run after cloning:
 npm run install-all
 npm run start-playground
 ```
+
+The issue that you will see:
+
+```
+Can't resolve 'comps/Button'
+```

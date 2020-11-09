@@ -12,7 +12,7 @@ module.exports = {
   resolve: {
     extensions: ['.jsx', '.js'],
     alias: {
-      myutils: './utils',
+      comps: './src/components',
     },
   },
   plugins: [

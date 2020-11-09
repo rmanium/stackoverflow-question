@@ -10,6 +10,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+    "@rmanium/stackoverflow-question": "^1.0.6",
     "next": "10.0.0",
     "next-transpile-modules": "^4.1.0",
     "react": "17.0.1",
